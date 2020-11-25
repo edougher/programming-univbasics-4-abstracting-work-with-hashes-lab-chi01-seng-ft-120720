@@ -8,7 +8,7 @@ my_hash_creator(:name, "Bob")
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  hash[key]
+  p hash[key]
 end
 new_name = {:name => "Bob"}
 read_from_hash(new_name, new_name[:name])
