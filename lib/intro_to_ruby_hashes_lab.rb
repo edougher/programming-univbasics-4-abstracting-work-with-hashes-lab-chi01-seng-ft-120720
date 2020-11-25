@@ -10,7 +10,7 @@ def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
   p hash[key]
 end
-new_name = {:name => "Bob"}
+new_name = {:name => "Steve"}
 read_from_hash(new_name, :name)
 
 def update_counting_hash(hash, key)
